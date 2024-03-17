@@ -1,0 +1,9 @@
+# GetMountsResponse
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `httpMeta`                                                                                           | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                   | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `getMounts200Response`                                                                               | [operations.GetMountsGetMounts200Response](../../models/operations/getmountsgetmounts200response.md) | :heavy_minus_sign:                                                                                   | Got installed mounts.                                                                                |

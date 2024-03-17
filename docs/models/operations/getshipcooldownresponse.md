@@ -1,0 +1,9 @@
+# GetShipCooldownResponse
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `httpMeta`                                                                                       | [components.HTTPMetadata](../../models/components/httpmetadata.md)                               | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `object`                                                                                         | [operations.GetShipCooldownResponseBody](../../models/operations/getshipcooldownresponsebody.md) | :heavy_minus_sign:                                                                               | Succesfully fetched ship's cooldown.                                                             |

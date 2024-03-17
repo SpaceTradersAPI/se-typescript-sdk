@@ -1,0 +1,9 @@
+# SellCargoResponse
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `httpMeta`                                                                                           | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                   | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `sellCargo201Response`                                                                               | [operations.SellCargoSellCargo201Response](../../models/operations/sellcargosellcargo201response.md) | :heavy_minus_sign:                                                                                   | Cargo was successfully sold.                                                                         |

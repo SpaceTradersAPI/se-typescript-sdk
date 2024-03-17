@@ -1,0 +1,11 @@
+# JumpShipData
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `nav`                                                                                | [components.ShipNavJson](../../models/components/shipnavjson.md)                     | :heavy_check_mark:                                                                   | The navigation information of the ship.                                              |
+| `cooldown`                                                                           | [components.CooldownJson](../../models/components/cooldownjson.md)                   | :heavy_check_mark:                                                                   | A cooldown is a period of time in which a ship cannot perform certain actions.       |
+| `transaction`                                                                        | [components.MarketTransactionJson](../../models/components/markettransactionjson.md) | :heavy_check_mark:                                                                   | Result of a transaction with a market.                                               |
+| `agent`                                                                              | [components.AgentJson](../../models/components/agentjson.md)                         | :heavy_check_mark:                                                                   | Agent details.                                                                       |

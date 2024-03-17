@@ -1,0 +1,9 @@
+# DockShipResponse
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `httpMeta`                                                                                       | [components.HTTPMetadata](../../models/components/httpmetadata.md)                               | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `dockShip200Response`                                                                            | [operations.DockShipDockShip200Response](../../models/operations/dockshipdockship200response.md) | :heavy_minus_sign:                                                                               | The ship has successfully docked at its current location.                                        |

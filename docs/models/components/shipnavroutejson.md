@@ -1,0 +1,13 @@
+# ShipNavRouteJson
+
+The routing information for the ship's most recent transit or current location.
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `destination`                                                                                         | [components.ShipNavRouteWaypointJson](../../models/components/shipnavroutewaypointjson.md)            | :heavy_check_mark:                                                                                    | The destination or departure of a ships nav route.                                                    |
+| `origin`                                                                                              | [components.ShipNavRouteWaypointJson](../../models/components/shipnavroutewaypointjson.md)            | :heavy_check_mark:                                                                                    | The destination or departure of a ships nav route.                                                    |
+| `departureTime`                                                                                       | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)         | :heavy_check_mark:                                                                                    | The date time of the ship's departure.                                                                |
+| `arrival`                                                                                             | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)         | :heavy_check_mark:                                                                                    | The date time of the ship's arrival. If the ship is in-transit, this is the expected time of arrival. |

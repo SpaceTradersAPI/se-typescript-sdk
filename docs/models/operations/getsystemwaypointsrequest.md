@@ -1,0 +1,12 @@
+# GetSystemWaypointsRequest
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `systemSymbol`                                                             | *string*                                                                   | :heavy_check_mark:                                                         | The system symbol                                                          |
+| `page`                                                                     | *number*                                                                   | :heavy_minus_sign:                                                         | What entry offset to request                                               |
+| `limit`                                                                    | *number*                                                                   | :heavy_minus_sign:                                                         | How many entries to return per page                                        |
+| `type`                                                                     | [components.WaypointTypeJson](../../models/components/waypointtypejson.md) | :heavy_minus_sign:                                                         | Filter waypoints by type.                                                  |
+| `traits`                                                                   | *operations.Traits*                                                        | :heavy_minus_sign:                                                         | Filter waypoints by one or more traits.                                    |

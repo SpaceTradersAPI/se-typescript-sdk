@@ -1,0 +1,9 @@
+workflowVersion: 1.0.0
+sources:
+    openapi:
+        inputs:
+            - location: ../api-docs/reference/SpaceTraders.json
+targets:
+    first-target:
+        target: typescript
+        source: openapi

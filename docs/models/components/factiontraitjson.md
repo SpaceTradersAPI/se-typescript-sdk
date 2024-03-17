@@ -1,0 +1,10 @@
+# FactionTraitJson
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `symbol`                                                                               | [components.FactionTraitSymbolJson](../../models/components/factiontraitsymboljson.md) | :heavy_check_mark:                                                                     | The unique identifier of the trait.                                                    |
+| `name`                                                                                 | *string*                                                                               | :heavy_check_mark:                                                                     | The name of the trait.                                                                 |
+| `description`                                                                          | *string*                                                                               | :heavy_check_mark:                                                                     | A description of the trait.                                                            |

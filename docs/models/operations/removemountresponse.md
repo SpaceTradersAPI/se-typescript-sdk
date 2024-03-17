@@ -1,0 +1,9 @@
+# RemoveMountResponse
+
+
+## Fields
+
+| Field                                                                                                        | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `httpMeta`                                                                                                   | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                           | :heavy_check_mark:                                                                                           | N/A                                                                                                          |
+| `removeMount201Response`                                                                                     | [operations.RemoveMountRemoveMount201Response](../../models/operations/removemountremovemount201response.md) | :heavy_minus_sign:                                                                                           | Successfully removed the mount.                                                                              |

@@ -1,0 +1,9 @@
+# TransferCargoResponse
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `httpMeta`                                                                                                           | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                                   | :heavy_check_mark:                                                                                                   | N/A                                                                                                                  |
+| `transferCargo200Response`                                                                                           | [operations.TransferCargoTransferCargo200Response](../../models/operations/transfercargotransfercargo200response.md) | :heavy_minus_sign:                                                                                                   | Transfer successful.                                                                                                 |

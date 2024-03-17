@@ -1,0 +1,13 @@
+# ShipConditionEventJson
+
+An event that represents damage or wear to a ship's reactor, frame, or engine, reducing the condition of the ship.
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `symbol`                                                                                           | [components.ShipConditionEventJsonSymbol](../../models/components/shipconditioneventjsonsymbol.md) | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `component`                                                                                        | [components.Component](../../models/components/component.md)                                       | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `name`                                                                                             | *string*                                                                                           | :heavy_check_mark:                                                                                 | The name of the event.                                                                             |
+| `description`                                                                                      | *string*                                                                                           | :heavy_check_mark:                                                                                 | A description of the event.                                                                        |

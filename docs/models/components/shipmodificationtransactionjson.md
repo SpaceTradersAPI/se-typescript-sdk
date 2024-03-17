@@ -1,0 +1,14 @@
+# ShipModificationTransactionJson
+
+Result of a transaction for a ship modification, such as installing a mount or a module.
+
+
+## Fields
+
+| Field                                                                                         | Type                                                                                          | Required                                                                                      | Description                                                                                   |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `waypointSymbol`                                                                              | *string*                                                                                      | :heavy_check_mark:                                                                            | The symbol of the waypoint where the transaction took place.                                  |
+| `shipSymbol`                                                                                  | *string*                                                                                      | :heavy_check_mark:                                                                            | The symbol of the ship that made the transaction.                                             |
+| `tradeSymbol`                                                                                 | *string*                                                                                      | :heavy_check_mark:                                                                            | The symbol of the trade good.                                                                 |
+| `totalPrice`                                                                                  | *number*                                                                                      | :heavy_check_mark:                                                                            | The total price of the transaction.                                                           |
+| `timestamp`                                                                                   | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) | :heavy_check_mark:                                                                            | The timestamp of the transaction.                                                             |

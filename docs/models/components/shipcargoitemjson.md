@@ -1,0 +1,13 @@
+# ShipCargoItemJson
+
+The type of cargo item and the number of units.
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `symbol`                                                                                               | [components.TradeSymbolJsonTradeSymbolJson](../../models/components/tradesymboljsontradesymboljson.md) | :heavy_check_mark:                                                                                     | The good's symbol.                                                                                     |
+| `name`                                                                                                 | *string*                                                                                               | :heavy_check_mark:                                                                                     | The name of the cargo item type.                                                                       |
+| `description`                                                                                          | *string*                                                                                               | :heavy_check_mark:                                                                                     | The description of the cargo item type.                                                                |
+| `units`                                                                                                | *number*                                                                                               | :heavy_check_mark:                                                                                     | The number of units of the cargo item.                                                                 |

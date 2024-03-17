@@ -1,0 +1,9 @@
+# OrbitShipResponse
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `httpMeta`                                                                                           | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                   | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `orbitShip200Response`                                                                               | [operations.OrbitShipOrbitShip200Response](../../models/operations/orbitshiporbitship200response.md) | :heavy_minus_sign:                                                                                   | The ship has successfully moved into orbit at its current location.                                  |

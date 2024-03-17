@@ -1,0 +1,9 @@
+# GetSystemWaypointsResponse
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `httpMeta`                                                                                             | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                     | :heavy_check_mark:                                                                                     | N/A                                                                                                    |
+| `object`                                                                                               | [operations.GetSystemWaypointsResponseBody](../../models/operations/getsystemwaypointsresponsebody.md) | :heavy_minus_sign:                                                                                     | Successfully fetched all waypoints in the system.                                                      |

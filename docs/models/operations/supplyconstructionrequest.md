@@ -1,0 +1,10 @@
+# SupplyConstructionRequest
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `systemSymbol`                                                                                       | *string*                                                                                             | :heavy_check_mark:                                                                                   | The system symbol                                                                                    |
+| `waypointSymbol`                                                                                     | *string*                                                                                             | :heavy_check_mark:                                                                                   | The waypoint symbol                                                                                  |
+| `requestBody`                                                                                        | [operations.SupplyConstructionRequestBody](../../models/operations/supplyconstructionrequestbody.md) | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |

@@ -1,0 +1,10 @@
+# PurchaseShipData
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `agent`                                                                                  | [components.AgentJson](../../models/components/agentjson.md)                             | :heavy_check_mark:                                                                       | Agent details.                                                                           |
+| `ship`                                                                                   | [components.ShipJson](../../models/components/shipjson.md)                               | :heavy_check_mark:                                                                       | Ship details.                                                                            |
+| `transaction`                                                                            | [components.ShipyardTransactionJson](../../models/components/shipyardtransactionjson.md) | :heavy_check_mark:                                                                       | Results of a transaction with a shipyard.                                                |

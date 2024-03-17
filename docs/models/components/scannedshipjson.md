@@ -1,0 +1,16 @@
+# ScannedShipJson
+
+The ship that was scanned. Details include information about the ship that could be detected by the scanner.
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `symbol`                                                                               | *string*                                                                               | :heavy_check_mark:                                                                     | The globally unique identifier of the ship.                                            |
+| `registration`                                                                         | [components.ShipRegistrationJson](../../models/components/shipregistrationjson.md)     | :heavy_check_mark:                                                                     | The public registration information of the ship                                        |
+| `nav`                                                                                  | [components.ShipNavJsonShipNavJson](../../models/components/shipnavjsonshipnavjson.md) | :heavy_check_mark:                                                                     | The navigation information of the ship.                                                |
+| `frame`                                                                                | [components.Frame](../../models/components/frame.md)                                   | :heavy_minus_sign:                                                                     | The frame of the ship.                                                                 |
+| `reactor`                                                                              | [components.Reactor](../../models/components/reactor.md)                               | :heavy_minus_sign:                                                                     | The reactor of the ship.                                                               |
+| `engine`                                                                               | [components.Engine](../../models/components/engine.md)                                 | :heavy_check_mark:                                                                     | The engine of the ship.                                                                |
+| `mounts`                                                                               | [components.Mounts](../../models/components/mounts.md)[]                               | :heavy_minus_sign:                                                                     | List of mounts installed in the ship.                                                  |

@@ -1,0 +1,9 @@
+# PurchaseCargoResponse
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `httpMeta`                                                                                                           | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                                   | :heavy_check_mark:                                                                                                   | N/A                                                                                                                  |
+| `purchaseCargo201Response`                                                                                           | [operations.PurchaseCargoPurchaseCargo201Response](../../models/operations/purchasecargopurchasecargo201response.md) | :heavy_minus_sign:                                                                                                   | Purchased goods successfully.                                                                                        |

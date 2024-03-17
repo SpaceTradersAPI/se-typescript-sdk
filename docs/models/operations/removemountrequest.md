@@ -1,0 +1,9 @@
+# RemoveMountRequest
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `shipSymbol`                                                                                         | *string*                                                                                             | :heavy_check_mark:                                                                                   | The ship's symbol.                                                                                   |
+| `requestBody`                                                                                        | [operations.RemoveMountRemoveMountRequest](../../models/operations/removemountremovemountrequest.md) | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |
